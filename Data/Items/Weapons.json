@@ -1,0 +1,1875 @@
+﻿{
+  "weapons": [
+    {
+      "Id": 1,
+      "Cost": {
+        "Gold": 45,
+        "Bronze": 10,
+        "Silver": 20
+      },
+      "Range": 1,
+      "Damage": 25,
+      "Effect": {
+        "Type": "Holy Strike",
+        "Description": "Deals extra damage to undead enemies.",
+        "AdditionalDamage": 10
+      },
+      "Rarity": "Legendary",
+      "Weight": 7.5,
+      "LevelCap": 20,
+      "Durability": 150,
+      "WeaponName": "Excalibur",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 2,
+      "Cost": {
+        "Gold": 38,
+        "Bronze": 50,
+        "Silver": 80
+      },
+      "Range": 5,
+      "Damage": 30,
+      "Effect": {
+        "Type": "Arcane Blast",
+        "Description": "Unleashes a powerful blast of energy, dealing damage to all enemies in a line.",
+        "AdditionalDamage": 15,
+        "LineDamage": 5
+      },
+      "Rarity": "Legendary",
+      "Weight": 6.0,
+      "LevelCap": 18,
+      "Durability": 120,
+      "WeaponName": "Wand of the Arcane",
+      "WeaponType": "Wand"
+    },
+    {
+      "Id": 3,
+      "Cost": {
+        "Gold": 13,
+        "Bronze": 30,
+        "Silver": 40
+      },
+      "Range": 1,
+      "Damage": 25,
+      "Effect": {
+        "Type": "Flame Burst",
+        "Description": "Deals additional fire damage over time to enemies hit.",
+        "AdditionalDamage": 5,
+        "DamageOverTime": 3,
+        "Duration": 5
+      },
+      "Rarity": "Epic",
+      "Weight": 5.5,
+      "LevelCap": 16,
+      "Durability": 140,
+      "WeaponName": "Flame Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 4,
+      "Cost": {
+        "Gold": 18,
+        "Bronze": 25,
+        "Silver": 35
+      },
+      "Range": 2,
+      "Damage": 20,
+      "Effect": {
+        "Type": "Poisoned Blade",
+        "Description": "Inflicts poison damage that reduces enemy health over time.",
+        "AdditionalDamage": 4,
+        "DamageOverTime": 2,
+        "Duration": 6
+      },
+      "Rarity": "Epic",
+      "Weight": 4.5,
+      "LevelCap": 15,
+      "Durability": 130,
+      "WeaponName": "Dagger of Venom",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 5,
+      "Cost": {
+        "Gold": 15,
+        "Bronze": 40,
+        "Silver": 60
+      },
+      "Range": 10,
+      "Damage": 30,
+      "Effect": {
+        "Type": "Thunder Strike",
+        "Description": "Summons a thunderstorm that damages all enemies in the area.",
+        "AdditionalDamage": 10,
+        "AreaDamage": 15,
+        "AreaRadius": 3
+      },
+      "Rarity": "Epic",
+      "Weight": 8.0,
+      "LevelCap": 17,
+      "Durability": 110,
+      "WeaponName": "Staff of Storms",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 6,
+      "Cost": {
+        "Gold": 12,
+        "Bronze": 35,
+        "Silver": 50
+      },
+      "Range": 5,
+      "Damage": 28,
+      "Effect": {
+        "Type": "Ice Shard",
+        "Description": "Slows down enemies upon hit, reducing their speed.",
+        "AdditionalDamage": 7,
+        "SpeedReduction": 30,
+        "Duration": 4
+      },
+      "Rarity": "Epic",
+      "Weight": 6.5,
+      "LevelCap": 16,
+      "Durability": 125,
+      "WeaponName": "Frost Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 7,
+      "Cost": {
+        "Gold": 2,
+        "Bronze": 15,
+        "Silver": 20
+      },
+      "Range": 1,
+      "Damage": 15,
+      "Effect": {
+        "Type": "Vampiric Strike",
+        "Description": "Heals the wielder for a portion of the damage dealt.",
+        "HealingPercentage": 25
+      },
+      "Rarity": "Rare",
+      "Weight": 5.0,
+      "LevelCap": 12,
+      "Durability": 100,
+      "WeaponName": "Bloodletter",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 8,
+      "Cost": {
+        "Gold": 4,
+        "Bronze": 12,
+        "Silver": 18
+      },
+      "Range": 3,
+      "Damage": 18,
+      "Effect": {
+        "Type": "Wind Slash",
+        "Description": "Unleashes a gust of wind that damages enemies in a straight line.",
+        "AdditionalDamage": 6
+      },
+      "Rarity": "Rare",
+      "Weight": 4.0,
+      "LevelCap": 13,
+      "Durability": 110,
+      "WeaponName": "Gale Blade",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 9,
+      "Cost": {
+        "Gold": 3,
+        "Bronze": 20,
+        "Silver": 25
+      },
+      "Range": 2,
+      "Damage": 14,
+      "Effect": {
+        "Type": "Stone Golem",
+        "Description": "Summons a temporary stone golem to fight alongside the wielder.",
+        "Duration": 10,
+        "GolemHealth": 50
+      },
+      "Rarity": "Rare",
+      "Weight": 5.5,
+      "LevelCap": 14,
+      "Durability": 120,
+      "WeaponName": "Golem's Fist",
+      "WeaponType": "Mace"
+    },
+    {
+      "Id": 10,
+      "Cost": {
+        "Gold": 1,
+        "Bronze": 18,
+        "Silver": 22
+      },
+      "Range": 1,
+      "Damage": 17,
+      "Effect": {
+        "Type": "Shockwave",
+        "Description": "Creates a shockwave that stuns enemies in a small radius.",
+        "StunDuration": 2,
+        "AreaRadius": 2
+      },
+      "Rarity": "Rare",
+      "Weight": 6.0,
+      "LevelCap": 11,
+      "Durability": 130,
+      "WeaponName": "Thunder Hammer",
+      "WeaponType": "Hammer"
+    },
+    {
+      "Id": 11,
+      "Cost": {
+        "Gold": 1,
+        "Bronze": 22,
+        "Silver": 28
+      },
+      "Range": 5,
+      "Damage": 16,
+      "Effect": {
+        "Type": "Ice Spike",
+        "Description": "Launches an ice spike that impales enemies, reducing their movement speed.",
+        "SpeedReduction": 30,
+        "Duration": 3
+      },
+      "Rarity": "Rare",
+      "Weight": 5.0,
+      "LevelCap": 12,
+      "Durability": 110,
+      "WeaponName": "Frost Spike",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 12,
+      "Cost": {
+        "Gold": 3,
+        "Bronze": 16,
+        "Silver": 24
+      },
+      "Range": 1,
+      "Damage": 19,
+      "Effect": {
+        "Type": "Blinding Flash",
+        "Description": "Temporarily blinds enemies on hit, reducing their accuracy.",
+        "BlindDuration": 3
+      },
+      "Rarity": "Rare",
+      "Weight": 4.5,
+      "LevelCap": 14,
+      "Durability": 115,
+      "WeaponName": "Flash Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 13,
+      "Cost": {
+        "Gold": 2,
+        "Bronze": 19,
+        "Silver": 27
+      },
+      "Range": 10,
+      "Damage": 22,
+      "Effect": {
+        "Type": "Explosive Arrow",
+        "Description": "Shoots an arrow that explodes on impact, damaging multiple enemies.",
+        "ExplosionDamage": 10,
+        "AreaRadius": 3
+      },
+      "Rarity": "Rare",
+      "Weight": 6.5,
+      "LevelCap": 15,
+      "Durability": 120,
+      "WeaponName": "Bow of the Wild",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 14,
+      "Cost": {
+        "Gold": 2,
+        "Bronze": 23,
+        "Silver": 30
+      },
+      "Range": 2,
+      "Damage": 21,
+      "Effect": {
+        "Type": "Spirit Link",
+        "Description": "Links with an ally, sharing a portion of damage dealt.",
+        "DamageSharePercentage": 15
+      },
+      "Rarity": "Rare",
+      "Weight": 5.0,
+      "LevelCap": 15,
+      "Durability": 130,
+      "WeaponName": "Soul Reaver",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 15,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 5,
+        "Silver": 19
+      },
+      "Range": 1,
+      "Damage": 10,
+      "Effect": {
+        "Type": "Quick Strike",
+        "Description": "Increases attack speed for a short duration after each hit.",
+        "Duration": 2,
+        "SpeedIncrease": 20
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.5,
+      "LevelCap": 8,
+      "Durability": 80,
+      "WeaponName": "Swift Blade",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 16,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 7,
+        "Silver": 29
+      },
+      "Range": 4,
+      "Damage": 12,
+      "Effect": {
+        "Type": "Poisoned Arrow",
+        "Description": "Deals damage over time to enemies hit.",
+        "DamageOverTime": 5,
+        "Duration": 3
+      },
+      "Rarity": "Uncommon",
+      "Weight": 2.5,
+      "LevelCap": 9,
+      "Durability": 85,
+      "WeaponName": "Venomous Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 17,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 6,
+        "Silver": 13
+      },
+      "Range": 1,
+      "Damage": 11,
+      "Effect": {
+        "Type": "Stun Strike",
+        "Description": "Has a chance to stun the target on hit.",
+        "StunChance": 15,
+        "StunDuration": 1
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.0,
+      "LevelCap": 7,
+      "Durability": 90,
+      "WeaponName": "Stun Mace",
+      "WeaponType": "Mace"
+    },
+    {
+      "Id": 18,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 4,
+        "Silver": 18
+      },
+      "Range": 2,
+      "Damage": 9,
+      "Effect": {
+        "Type": "Fireball",
+        "Description": "Launches a fireball that explodes on impact, dealing area damage.",
+        "ExplosionDamage": 8,
+        "AreaRadius": 2
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.0,
+      "LevelCap": 8,
+      "Durability": 75,
+      "WeaponName": "Fire Staff",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 19,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 8,
+        "Silver": 24
+      },
+      "Range": 1,
+      "Damage": 13,
+      "Effect": {
+        "Type": "Deflect",
+        "Description": "Has a chance to deflect incoming projectiles.",
+        "DeflectChance": 10
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.5,
+      "LevelCap": 10,
+      "Durability": 95,
+      "WeaponName": "Guardian Shield",
+      "WeaponType": "Shield"
+    },
+    {
+      "Id": 20,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 5,
+        "Silver": 30
+      },
+      "Range": 3,
+      "Damage": 10,
+      "Effect": {
+        "Type": "Whirlwind",
+        "Description": "Creates a whirlwind that pulls enemies toward the user.",
+        "PullRadius": 1,
+        "Duration": 2
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.0,
+      "LevelCap": 9,
+      "Durability": 80,
+      "WeaponName": "Cyclone Staff",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 21,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 10,
+        "Silver": 35
+      },
+      "Range": 2,
+      "Damage": 12,
+      "Effect": {
+        "Type": "Healing Strike",
+        "Description": "Heals the wielder for a small amount upon dealing damage.",
+        "HealingAmount": 5
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.0,
+      "LevelCap": 11,
+      "Durability": 85,
+      "WeaponName": "Medic Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 22,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 12,
+        "Silver": 21
+      },
+      "Range": 5,
+      "Damage": 14,
+      "Effect": {
+        "Type": "Sonic Arrow",
+        "Description": "Fires an arrow that creates a loud sound, causing fear in enemies.",
+        "FearDuration": 3
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.5,
+      "LevelCap": 12,
+      "Durability": 90,
+      "WeaponName": "Fearsome Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 23,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 6,
+        "Silver": 12
+      },
+      "Range": 1,
+      "Damage": 7,
+      "Effect": {
+        "Type": "Frost Strike",
+        "Description": "Deals extra cold damage and slows the enemy.",
+        "AdditionalDamage": 3,
+        "SlowAmount": 25,
+        "Duration": 2
+      },
+      "Rarity": "Uncommon",
+      "Weight": 2.0,
+      "LevelCap": 5,
+      "Durability": 70,
+      "WeaponName": "Frostbite Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 24,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 8,
+        "Silver": 13
+      },
+      "Range": 1,
+      "Damage": 9,
+      "Effect": {
+        "Type": "Burning Strike",
+        "Description": "Deals damage over time and burns the target.",
+        "DamageOverTime": 4,
+        "Duration": 3
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.0,
+      "LevelCap": 6,
+      "Durability": 80,
+      "WeaponName": "Ember Blade",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 25,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 5,
+        "Silver": 9
+      },
+      "Range": 3,
+      "Damage": 8,
+      "Effect": {
+        "Type": "Chain Reaction",
+        "Description": "Attacks have a chance to hit a second nearby enemy.",
+        "Chance": 25
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.5,
+      "LevelCap": 3,
+      "Durability": 60,
+      "WeaponName": "Cannonball Thrower",
+      "WeaponType": "Throwing"
+    },
+    {
+      "Id": 26,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 7,
+        "Silver": 16
+      },
+      "Range": 1,
+      "Damage": 10,
+      "Effect": {
+        "Type": "Shield Bash",
+        "Description": "Has a chance to knock back enemies on hit.",
+        "KnockBackChance": 20,
+        "Distance": 2
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.5,
+      "LevelCap": 8,
+      "Durability": 85,
+      "WeaponName": "Brawler's Shield",
+      "WeaponType": "Shield"
+    },
+    {
+      "Id": 27,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 10,
+        "Silver": 25
+      },
+      "Range": 2,
+      "Damage": 11,
+      "Effect": {
+        "Type": "Disarm",
+        "Description": "Disarms enemies, reducing their attack for a short time.",
+        "DisarmDuration": 3
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.0,
+      "LevelCap": 10,
+      "Durability": 90,
+      "WeaponName": "Disarming Whip",
+      "WeaponType": "Whip"
+    },
+    {
+      "Id": 28,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 12,
+        "Silver": 18
+      },
+      "Range": 1,
+      "Damage": 15,
+      "Effect": {
+        "Type": "Bloodthirst",
+        "Description": "Restores a small amount of health for each enemy defeated.",
+        "HealingAmount": 4
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.5,
+      "LevelCap": 6,
+      "Durability": 75,
+      "WeaponName": "Vampire's Blade",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 29,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 9,
+        "Silver": 14
+      },
+      "Range": 4,
+      "Damage": 13,
+      "Effect": {
+        "Type": "Concussive Shot",
+        "Description": "Deals additional damage and stuns the target briefly.",
+        "StunDuration": 1
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.0,
+      "LevelCap": 5,
+      "Durability": 80,
+      "WeaponName": "Boomerang Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 30,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 15,
+        "Silver": 25
+      },
+      "Range": 1,
+      "Damage": 12,
+      "Effect": {
+        "Type": "Area Heal",
+        "Description": "Heals allies in a small area around the wielder.",
+        "HealingAmount": 5,
+        "AreaRadius": 1
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.5,
+      "LevelCap": 8,
+      "Durability": 85,
+      "WeaponName": "Healer's Staff",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 31,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 25,
+        "Silver": 0
+      },
+      "Range": 1,
+      "Damage": 4,
+      "Effect": {
+        "Type": "None",
+        "Description": "A simple weapon for beginners.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 1.0,
+      "LevelCap": 1,
+      "Durability": 50,
+      "WeaponName": "Wooden Stick",
+      "WeaponType": "Club"
+    },
+    {
+      "Id": 32,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 8,
+        "Silver": 1
+      },
+      "Range": 1,
+      "Damage": 5,
+      "Effect": {
+        "Type": "None",
+        "Description": "A basic sword for early adventurers.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.0,
+      "LevelCap": 1,
+      "Durability": 60,
+      "WeaponName": "Iron Short Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 33,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 6,
+        "Silver": 1
+      },
+      "Range": 1,
+      "Damage": 6,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy dagger for quick strikes.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 1.5,
+      "LevelCap": 1,
+      "Durability": 55,
+      "WeaponName": "Basic Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 34,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 9,
+        "Silver": 4
+      },
+      "Range": 1,
+      "Damage": 8,
+      "Effect": {
+        "Type": "None",
+        "Description": "A reliable spear for melee combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.0,
+      "LevelCap": 3,
+      "Durability": 70,
+      "WeaponName": "Wooden Spear",
+      "WeaponType": "Spear"
+    },
+    {
+      "Id": 35,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 10,
+        "Silver": 6
+      },
+      "Range": 2,
+      "Damage": 9,
+      "Effect": {
+        "Type": "None",
+        "Description": "A basic bow for ranged attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.5,
+      "LevelCap": 4,
+      "Durability": 75,
+      "WeaponName": "Simple Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 36,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 12,
+        "Silver": 8
+      },
+      "Range": 1,
+      "Damage": 10,
+      "Effect": {
+        "Type": "None",
+        "Description": "A solid axe for effective chopping.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 4.0,
+      "LevelCap": 6,
+      "Durability": 80,
+      "WeaponName": "Iron Axe",
+      "WeaponType": "Axe"
+    },
+    {
+      "Id": 37,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 15,
+        "Silver": 9
+      },
+      "Range": 3,
+      "Damage": 12,
+      "Effect": {
+        "Type": "None",
+        "Description": "A heavy crossbow for powerful ranged attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 5.0,
+      "LevelCap": 8,
+      "Durability": 85,
+      "WeaponName": "Heavy Crossbow",
+      "WeaponType": "Crossbow"
+    },
+    {
+      "Id": 38,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 20,
+        "Silver": 11
+      },
+      "Range": 2,
+      "Damage": 14,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy halberd for versatility in combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 6.0,
+      "LevelCap": 10,
+      "Durability": 90,
+      "WeaponName": "Halberd",
+      "WeaponType": "Polearm"
+    },
+    {
+      "Id": 39,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 25,
+        "Silver": 12
+      },
+      "Range": 2,
+      "Damage": 16,
+      "Effect": {
+        "Type": "None",
+        "Description": "A powerful slingshot for launching stones.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.0,
+      "LevelCap": 9,
+      "Durability": 80,
+      "WeaponName": "Slingshot",
+      "WeaponType": "Slingshot"
+    },
+    {
+      "Id": 40,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 30,
+        "Silver": 15
+      },
+      "Range": 1,
+      "Damage": 18,
+      "Effect": {
+        "Type": "None",
+        "Description": "A dual-bladed sword for fierce attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 5.0,
+      "LevelCap": 10,
+      "Durability": 100,
+      "WeaponName": "Twin Blades",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 41,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 73,
+        "Silver": 0
+      },
+      "Range": 1,
+      "Damage": 3,
+      "Effect": {
+        "Type": "None",
+        "Description": "A light wooden club for simple strikes.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 0.8,
+      "LevelCap": 1,
+      "Durability": 30,
+      "WeaponName": "Light Wooden Club",
+      "WeaponType": "Club"
+    },
+    {
+      "Id": 42,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 4,
+        "Silver": 1
+      },
+      "Range": 1,
+      "Damage": 5,
+      "Effect": {
+        "Type": "None",
+        "Description": "A rusty sword with moderate effectiveness.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 1.5,
+      "LevelCap": 2,
+      "Durability": 45,
+      "WeaponName": "Rusty Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 43,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 5,
+        "Silver": 3
+      },
+      "Range": 1,
+      "Damage": 6,
+      "Effect": {
+        "Type": "None",
+        "Description": "A lightweight dagger for swift attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 1.2,
+      "LevelCap": 3,
+      "Durability": 50,
+      "WeaponName": "Swift Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 44,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 6,
+        "Silver": 4
+      },
+      "Range": 1,
+      "Damage": 7,
+      "Effect": {
+        "Type": "None",
+        "Description": "A basic spear made for effective thrusts.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.5,
+      "LevelCap": 4,
+      "Durability": 65,
+      "WeaponName": "Basic Spear",
+      "WeaponType": "Spear"
+    },
+    {
+      "Id": 45,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 7,
+        "Silver": 5
+      },
+      "Range": 2,
+      "Damage": 9,
+      "Effect": {
+        "Type": "None",
+        "Description": "A traditional bow for ranged attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.0,
+      "LevelCap": 5,
+      "Durability": 70,
+      "WeaponName": "Traditional Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 46,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 8,
+        "Silver": 6
+      },
+      "Range": 1,
+      "Damage": 10,
+      "Effect": {
+        "Type": "None",
+        "Description": "An iron axe for dealing solid damage.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.5,
+      "LevelCap": 6,
+      "Durability": 75,
+      "WeaponName": "Iron Battle Axe",
+      "WeaponType": "Axe"
+    },
+    {
+      "Id": 47,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 10,
+        "Silver": 7
+      },
+      "Range": 3,
+      "Damage": 12,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy crossbow for accurate ranged combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 5.0,
+      "LevelCap": 7,
+      "Durability": 80,
+      "WeaponName": "Sturdy Crossbow",
+      "WeaponType": "Crossbow"
+    },
+    {
+      "Id": 48,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 12,
+        "Silver": 8
+      },
+      "Range": 1,
+      "Damage": 15,
+      "Effect": {
+        "Type": "None",
+        "Description": "A powerful glaive for slashing attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 4.5,
+      "LevelCap": 8,
+      "Durability": 85,
+      "WeaponName": "Powerful Glaive",
+      "WeaponType": "Polearm"
+    },
+    {
+      "Id": 49,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 15,
+        "Silver": 9
+      },
+      "Range": 2,
+      "Damage": 18,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sling for launching stones with force.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.0,
+      "LevelCap": 9,
+      "Durability": 90,
+      "WeaponName": "Stone Sling",
+      "WeaponType": "Sling"
+    },
+    {
+      "Id": 50,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 18,
+        "Silver": 12
+      },
+      "Range": 1,
+      "Damage": 20,
+      "Effect": {
+        "Type": "None",
+        "Description": "A large sword for powerful, sweeping attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 5.5,
+      "LevelCap": 10,
+      "Durability": 100,
+      "WeaponName": "Greatsword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 51,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 25,
+        "Silver": 15
+      },
+      "Range": 1,
+      "Damage": 22,
+      "Effect": {
+        "Type": "None",
+        "Description": "A heavy club for crushing blows.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 8.0,
+      "LevelCap": 11,
+      "Durability": 100,
+      "WeaponName": "Heavy Club",
+      "WeaponType": "Club"
+    },
+    {
+      "Id": 52,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 28,
+        "Silver": 16
+      },
+      "Range": 1,
+      "Damage": 24,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy longsword for versatile combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.0,
+      "LevelCap": 12,
+      "Durability": 110,
+      "WeaponName": "Sturdy Longsword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 53,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 30,
+        "Silver": 18
+      },
+      "Range": 1,
+      "Damage": 27,
+      "Effect": {
+        "Type": "None",
+        "Description": "A swift blade for quick strikes.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.0,
+      "LevelCap": 13,
+      "Durability": 115,
+      "WeaponName": "Swift Blade",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 54,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 32,
+        "Silver": 20
+      },
+      "Range": 1,
+      "Damage": 30,
+      "Effect": {
+        "Type": "None",
+        "Description": "A battle spear for piercing attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 4.0,
+      "LevelCap": 14,
+      "Durability": 120,
+      "WeaponName": "Battle Spear",
+      "WeaponType": "Spear"
+    },
+    {
+      "Id": 55,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 35,
+        "Silver": 22
+      },
+      "Range": 2,
+      "Damage": 35,
+      "Effect": {
+        "Type": "None",
+        "Description": "A powerful shortbow for long-range strikes.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.0,
+      "LevelCap": 15,
+      "Durability": 125,
+      "WeaponName": "Powerful Shortbow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 56,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 38,
+        "Silver": 24
+      },
+      "Range": 1,
+      "Damage": 38,
+      "Effect": {
+        "Type": "None",
+        "Description": "An iron war axe for heavy damage.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 5.5,
+      "LevelCap": 16,
+      "Durability": 130,
+      "WeaponName": "Iron War Axe",
+      "WeaponType": "Axe"
+    },
+    {
+      "Id": 57,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 40,
+        "Silver": 26
+      },
+      "Range": 3,
+      "Damage": 40,
+      "Effect": {
+        "Type": "None",
+        "Description": "A refined crossbow for precise shots.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 6.0,
+      "LevelCap": 17,
+      "Durability": 135,
+      "WeaponName": "Refined Crossbow",
+      "WeaponType": "Crossbow"
+    },
+    {
+      "Id": 58,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 42,
+        "Silver": 27
+      },
+      "Range": 1,
+      "Damage": 43,
+      "Effect": {
+        "Type": "None",
+        "Description": "A battle glaive for slashing and thrusting.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 6.5,
+      "LevelCap": 18,
+      "Durability": 140,
+      "WeaponName": "Battle Glaive",
+      "WeaponType": "Polearm"
+    },
+    {
+      "Id": 59,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 45,
+        "Silver": 30
+      },
+      "Range": 2,
+      "Damage": 45,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sling for rapid-fire stone shots.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.5,
+      "LevelCap": 19,
+      "Durability": 145,
+      "WeaponName": "Rapid-Fire Sling",
+      "WeaponType": "Sling"
+    },
+    {
+      "Id": 60,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 48,
+        "Silver": 32
+      },
+      "Range": 1,
+      "Damage": 50,
+      "Effect": {
+        "Type": "None",
+        "Description": "A colossal sword for devastating attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 7.0,
+      "LevelCap": 20,
+      "Durability": 150,
+      "WeaponName": "Colossal Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 61,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 70,
+        "Silver": 0
+      },
+      "Range": 1,
+      "Damage": 15,
+      "Effect": {
+        "Type": "None",
+        "Description": "A basic wooden staff, lightweight and easy to wield.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 1.5,
+      "LevelCap": 1,
+      "Durability": 80,
+      "WeaponName": "Wooden Staff",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 62,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 0,
+        "Silver": 1
+      },
+      "Range": 1,
+      "Damage": 18,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sharp dagger for quick, stealthy strikes.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 1.0,
+      "LevelCap": 2,
+      "Durability": 70,
+      "WeaponName": "Sharp Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 63,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 5,
+        "Silver": 1
+      },
+      "Range": 1,
+      "Damage": 20,
+      "Effect": {
+        "Type": "None",
+        "Description": "A basic sword, effective for close combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.0,
+      "LevelCap": 3,
+      "Durability": 90,
+      "WeaponName": "Basic Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 64,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 28,
+        "Silver": 1
+      },
+      "Range": 1,
+      "Damage": 23,
+      "Effect": {
+        "Type": "None",
+        "Description": "A wooden bow for basic ranged combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 2.5,
+      "LevelCap": 4,
+      "Durability": 95,
+      "WeaponName": "Wooden Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 65,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 30,
+        "Silver": 2
+      },
+      "Range": 1,
+      "Damage": 26,
+      "Effect": {
+        "Type": "None",
+        "Description": "A heavy mace for powerful melee attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 4.5,
+      "LevelCap": 5,
+      "Durability": 100,
+      "WeaponName": "Heavy Mace",
+      "WeaponType": "Mace"
+    },
+    {
+      "Id": 66,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 32,
+        "Silver": 2
+      },
+      "Range": 2,
+      "Damage": 30,
+      "Effect": {
+        "Type": "None",
+        "Description": "A well-crafted spear for both melee and throwing.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.5,
+      "LevelCap": 6,
+      "Durability": 110,
+      "WeaponName": "Well-Crafted Spear",
+      "WeaponType": "Spear"
+    },
+    {
+      "Id": 67,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 35,
+        "Silver": 3
+      },
+      "Range": 1,
+      "Damage": 32,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy shield for protection in combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 5.0,
+      "LevelCap": 7,
+      "Durability": 120,
+      "WeaponName": "Sturdy Shield",
+      "WeaponType": "Shield"
+    },
+    {
+      "Id": 68,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 38,
+        "Silver": 4
+      },
+      "Range": 2,
+      "Damage": 35,
+      "Effect": {
+        "Type": "None",
+        "Description": "A light crossbow for swift shots.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 3.5,
+      "LevelCap": 8,
+      "Durability": 130,
+      "WeaponName": "Light Crossbow",
+      "WeaponType": "Crossbow"
+    },
+    {
+      "Id": 69,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 40,
+        "Silver": 6
+      },
+      "Range": 3,
+      "Damage": 38,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy longbow for long-range attacks.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 4.0,
+      "LevelCap": 9,
+      "Durability": 140,
+      "WeaponName": "Sturdy Longbow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 70,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 45,
+        "Silver": 8
+      },
+      "Range": 1,
+      "Damage": 40,
+      "Effect": {
+        "Type": "None",
+        "Description": "A solid battle axe for effective chopping.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Common",
+      "Weight": 6.0,
+      "LevelCap": 10,
+      "Durability": 150,
+      "WeaponName": "Solid Battle Axe",
+      "WeaponType": "Axe"
+    },
+    {
+      "Id": 71,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 45,
+        "Silver": 30
+      },
+      "Range": 1,
+      "Damage": 40,
+      "Effect": {
+        "Type": "None",
+        "Description": "A well-balanced sword, favored by many warriors.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.0,
+      "LevelCap": 1,
+      "Durability": 100,
+      "WeaponName": "Balanced Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 72,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 48,
+        "Silver": 32
+      },
+      "Range": 2,
+      "Damage": 45,
+      "Effect": {
+        "Type": "None",
+        "Description": "A sturdy spear for both melee and ranged combat.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.0,
+      "LevelCap": 3,
+      "Durability": 110,
+      "WeaponName": "Sturdy Spear",
+      "WeaponType": "Spear"
+    },
+    {
+      "Id": 73,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 50,
+        "Silver": 35
+      },
+      "Range": 1,
+      "Damage": 50,
+      "Effect": {
+        "Type": "Bleed",
+        "Description": "Causes bleeding effect over time.",
+        "AdditionalDamage": 5
+      },
+      "Rarity": "Uncommon",
+      "Weight": 2.5,
+      "LevelCap": 5,
+      "Durability": 90,
+      "WeaponName": "Bleeding Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 74,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 52,
+        "Silver": 38
+      },
+      "Range": 1,
+      "Damage": 55,
+      "Effect": {
+        "Type": "None",
+        "Description": "An axe with a sharp edge, perfect for cutting.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Uncommon",
+      "Weight": 5.0,
+      "LevelCap": 6,
+      "Durability": 100,
+      "WeaponName": "Sharp Axe",
+      "WeaponType": "Axe"
+    },
+    {
+      "Id": 75,
+      "Cost": {
+        "Gold": 4,
+        "Bronze": 55,
+        "Silver": 40
+      },
+      "Range": 1,
+      "Damage": 60,
+      "Effect": {
+        "Type": "None",
+        "Description": "A heavy hammer for smashing enemies.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Uncommon",
+      "Weight": 6.0,
+      "LevelCap": 8,
+      "Durability": 120,
+      "WeaponName": "Heavy Hammer",
+      "WeaponType": "Hammer"
+    },
+    {
+      "Id": 76,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 50,
+        "Silver": 42
+      },
+      "Range": 1,
+      "Damage": 65,
+      "Effect": {
+        "Type": "Fire",
+        "Description": "Deals fire damage over time.",
+        "AdditionalDamage": 10
+      },
+      "Rarity": "Uncommon",
+      "Weight": 4.5,
+      "LevelCap": 10,
+      "Durability": 130,
+      "WeaponName": "Flame Sword",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 77,
+      "Cost": {
+        "Gold": 0,
+        "Bronze": 60,
+        "Silver": 45
+      },
+      "Range": 3,
+      "Damage": 70,
+      "Effect": {
+        "Type": "None",
+        "Description": "A longbow designed for accuracy and speed.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Uncommon",
+      "Weight": 3.0,
+      "LevelCap": 12,
+      "Durability": 140,
+      "WeaponName": "Accurate Longbow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 81,
+      "Cost": {
+        "Gold": 5,
+        "Bronze": 80,
+        "Silver": 60
+      },
+      "Range": 1,
+      "Damage": 75,
+      "Effect": {
+        "Type": "Shock",
+        "Description": "Deals extra shock damage and stuns the target.",
+        "AdditionalDamage": 15
+      },
+      "Rarity": "Rare",
+      "Weight": 4.5,
+      "LevelCap": 3,
+      "Durability": 120,
+      "WeaponName": "Thunderstrike Blade",
+      "WeaponType": "Sword"
+    },
+    {
+      "Id": 82,
+      "Cost": {
+        "Gold": 2,
+        "Bronze": 85,
+        "Silver": 65
+      },
+      "Range": 2,
+      "Damage": 80,
+      "Effect": {
+        "Type": "None",
+        "Description": "A long-range bow with increased accuracy.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Rare",
+      "Weight": 3.0,
+      "LevelCap": 5,
+      "Durability": 130,
+      "WeaponName": "Eagle Eye Bow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 83,
+      "Cost": {
+        "Gold": 3,
+        "Bronze": 90,
+        "Silver": 70
+      },
+      "Range": 1,
+      "Damage": 85,
+      "Effect": {
+        "Type": "Vampiric",
+        "Description": "Restores health equal to a percentage of damage dealt.",
+        "AdditionalDamage": 20
+      },
+      "Rarity": "Rare",
+      "Weight": 5.0,
+      "LevelCap": 8,
+      "Durability": 110,
+      "WeaponName": "Life Stealer Axe",
+      "WeaponType": "Axe"
+    },
+    {
+      "Id": 84,
+      "Cost": {
+        "Gold": 7,
+        "Bronze": 95,
+        "Silver": 75
+      },
+      "Range": 1,
+      "Damage": 90,
+      "Effect": {
+        "Type": "Fire",
+        "Description": "Deals additional fire damage to enemies.",
+        "AdditionalDamage": 10
+      },
+      "Rarity": "Rare",
+      "Weight": 6.0,
+      "LevelCap": 10,
+      "Durability": 150,
+      "WeaponName": "Inferno Hammer",
+      "WeaponType": "Hammer"
+    },
+    {
+      "Id": 85,
+      "Cost": {
+        "Gold": 5,
+        "Bronze": 10,
+        "Silver": 80
+      },
+      "Range": 1,
+      "Damage": 95,
+      "Effect": {
+        "Type": "None",
+        "Description": "A powerful greatsword that delivers massive damage.",
+        "AdditionalDamage": 0
+      },
+      "Rarity": "Rare",
+      "Weight": 8.0,
+      "LevelCap": 7,
+      "Durability": 140,
+      "WeaponName": "Colossal Greatsword",
+      "WeaponType": "Greatsword"
+    },
+    {
+      "Id": 91,
+      "Cost": {
+        "Gold": 15,
+        "Bronze": 45,
+        "Silver": 30
+      },
+      "Range": 1,
+      "Damage": 120,
+      "Effect": {
+        "Type": "Ice",
+        "Description": "Slows enemies for a short duration on hit.",
+        "AdditionalDamage": 15
+      },
+      "Rarity": "Epic",
+      "Weight": 5.5,
+      "LevelCap": 5,
+      "Durability": 160,
+      "WeaponName": "Frostbite Scimitar",
+      "WeaponType": "Scimitar"
+    },
+    {
+      "Id": 92,
+      "Cost": {
+        "Gold": 18,
+        "Bronze": 30,
+        "Silver": 99
+      },
+      "Range": 2,
+      "Damage": 125,
+      "Effect": {
+        "Type": "None",
+        "Description": "A long-range bow that deals critical damage on precise shots.",
+        "AdditionalDamage": 20
+      },
+      "Rarity": "Epic",
+      "Weight": 4.0,
+      "LevelCap": 7,
+      "Durability": 150,
+      "WeaponName": "Marksman's Longbow",
+      "WeaponType": "Bow"
+    },
+    {
+      "Id": 93,
+      "Cost": {
+        "Gold": 16,
+        "Bronze": 25,
+        "Silver": 50
+      },
+      "Range": 1,
+      "Damage": 130,
+      "Effect": {
+        "Type": "Poison",
+        "Description": "Deals damage over time to poisoned enemies.",
+        "AdditionalDamage": 10
+      },
+      "Rarity": "Epic",
+      "Weight": 6.0,
+      "LevelCap": 10,
+      "Durability": 140,
+      "WeaponName": "Venomous Dagger",
+      "WeaponType": "Dagger"
+    },
+    {
+      "Id": 94,
+      "Cost": {
+        "Gold": 14,
+        "Bronze": 20,
+        "Silver": 99
+      },
+      "Range": 1,
+      "Damage": 135,
+      "Effect": {
+        "Type": "Fire",
+        "Description": "Ignites enemies, dealing additional damage over time.",
+        "AdditionalDamage": 25
+      },
+      "Rarity": "Epic",
+      "Weight": 7.0,
+      "LevelCap": 12,
+      "Durability": 130,
+      "WeaponName": "Blazing Warhammer",
+      "WeaponType": "Warhammer"
+    },
+    {
+      "Id": 95,
+      "Cost": {
+        "Gold": 25,
+        "Bronze": 99,
+        "Silver": 50
+      },
+      "Range": 1,
+      "Damage": 35,
+      "Effect": {
+        "Type": "Holy Light",
+        "Description": "Restores 5 health points to the wielder when hitting an enemy.",
+        "AdditionalDamage": 5
+      },
+      "Rarity": "Legendary",
+      "Weight": 5.0,
+      "LevelCap": 10,
+      "Durability": 100,
+      "WeaponName": "Celestial Staff",
+      "WeaponType": "Staff"
+    },
+    {
+      "Id": 96,
+      "Cost": {
+        "Gold": 30,
+        "Bronze": 75,
+        "Silver": 25
+      },
+      "Range": 1,
+      "Damage": 40,
+      "Effect": {
+        "Type": "Thunderstrike",
+        "Description": "Chance to stun the enemy for 1 turn on hit.",
+        "AdditionalDamage": 10
+      },
+      "Rarity": "Legendary",
+      "Weight": 6.0,
+      "LevelCap": 9,
+      "Durability": 120,
+      "WeaponName": "Stormbringer",
+      "WeaponType": "Axe"
+    }
+  ]
+}

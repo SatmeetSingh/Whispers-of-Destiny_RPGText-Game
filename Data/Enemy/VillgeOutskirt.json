@@ -1,0 +1,92 @@
+﻿  [
+    {
+      "Id": 1,
+      "Name": "Goblin",
+      "Level": 1,
+      "ExpAwarded": 12,
+      "Health": 30,
+      "MaxHealth": 30,
+      "Damage": 6,
+      "Rarity": "Common"
+    },
+    {
+      "Id": 2,
+      "Name": "Wolf",
+      "Level": 2,
+      "ExpAwarded": 16,
+      "Health": 35,
+      "MaxHealth": 35,
+      "Damage": 7,
+      "Rarity": "Common"
+    },
+    {
+      "Id": 3,
+      "Name": "Orc",
+      "Level": 3,
+      "ExpAwarded": 30,
+      "Health": 40,
+      "MaxHealth": 40,
+      "Damage": 8,
+      "Rarity": "Common"
+    },
+    {
+      "Id": 4,
+      "Name": "Rat",
+      "Level": 1,
+      "ExpAwarded": 12,
+      "Health": 28,
+      "MaxHealth": 28,
+      "Damage": 5, 
+      "Rarity": "Common"
+    },
+    {
+      "Id": 5,
+      "Name": "Bandit",
+      "Level": 2,
+      "ExpAwarded": 18, 
+      "Health": 33,
+      "MaxHealth": 33,
+      "Damage": 6, 
+      "Rarity": "Common"
+    },
+    {
+      "Id": 6,
+      "Name": "Zombie",
+      "Level": 3,
+      "ExpAwarded": 32, 
+      "Health": 38,
+      "MaxHealth": 38,
+      "Damage": 7, 
+      "Rarity": "Common"
+    },
+    {
+      "Id": 7,
+      "Name": "Elite Goblin",
+      "Level": 3,
+      "ExpAwarded": 35,
+      "Health": 55,
+      "MaxHealth": 55,
+      "Damage": 9,
+      "Rarity": "Elite"
+    },
+    {
+      "Id": 8,
+      "Name": "Elite Bandit",
+      "Level": 2,
+      "ExpAwarded": 25, 
+      "Health": 45,
+      "MaxHealth": 45,
+      "Damage": 8, 
+      "Rarity": "Elite"
+    },
+    {
+      "Id": 9,
+      "Name": "Goblin King",
+      "Level": 3,
+      "ExpAwarded": 60, 
+      "Health": 70,
+      "MaxHealth": 70,
+      "Damage": 12,
+      "Rarity": "Boss"
+  }
+]

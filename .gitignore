@@ -1,0 +1,44 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# Rider and VS Code IDE files
+.idea/
+.vscode/
+*.sln.ide/
+*.vs/
+
+# Log and crash report files
+*.log
+crash.log
+
+# Package directories
+packages/
+.vs/
+
+# Mac-specific files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio temporary and build files
+*.tlog
+*.lastbuildstate
+project.lock.json
+project.fragment.lock.json
+
+# NuGet packages
+*.nupkg
+.nuget/

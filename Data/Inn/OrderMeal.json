@@ -1,0 +1,101 @@
+﻿  {
+    "Meals": [
+      {
+        "Id": 1,
+        "Name": "Hearty Stew",
+        "Description": "A steaming bowl of rich, savory stew filled with tender meat and fresh vegetables. Perfect for warming you up after a long day of adventuring.",
+        "Effect": {
+          "HealthRestoration": 20,
+          "StaminaRestoration": null,
+          "MoraleBoost": null,
+          "TemporaryAttackBoost": null
+        },
+        "Cost": {
+          "Gold": 0,
+          "Silver": 0,
+          "Bronze": 30
+        }
+      },
+      {
+        "Id": 2,
+        "Name": "Roasted Meat",
+        "Description": "Juicy cuts of meat roasted to perfection, seasoned with fragrant herbs. A favorite among warriors and travelers alike.",
+        "Effect": {
+          "HealthRestoration": 15,
+          "StaminaRestoration": null,
+          "MoraleBoost": null,
+          "TemporaryAttackBoost": null
+        },
+        "Cost": {
+          "Gold": 0,
+          "Silver": 0,
+          "Bronze": 25
+        }
+      },
+      {
+        "Id": 3,
+        "Name": "Refreshing Ale",
+        "Description": "A frothy mug of golden ale that quenches your thirst and refreshes your spirit. Perfect for celebrating victories or easing the day’s stresses.",
+        "Effect": {
+          "StaminaRestoration": 5,
+          "HealthRestoration": null,
+          "MoraleBoost": true,
+          "TemporaryAttackBoost": null
+        },
+        "Cost": {
+          "Gold": 0,
+          "Silver": 0,
+          "Bronze": 15
+        }
+      },
+      {
+        "Id": 4,
+        "Name": "Mystic Elixir",
+        "Description": "A glowing potion brewed from rare herbs and magical ingredients. It has a unique taste that invigorates your senses.",
+        "Effect": {
+          "HealthRestoration": 25,
+          "StaminaRestoration": null,
+          "MoraleBoost": null,
+          "TemporaryAttackBoost": true
+
+        },
+        "Cost": {
+          "Gold": 0,
+          "Silver": 1,
+          "Bronze": 0
+        }
+      },
+      {
+        "Id": 5,
+        "Name": "Baker’s Delight",
+        "Description": "A sweet pastry filled with fruits and topped with honey. A delightful way to end your meal.",
+        "Effect": {
+          "HealthRestoration": 10,
+          "MoraleBoost": true,
+          "StaminaRestoration": null,
+          "TemporaryAttackBoost": null
+        },
+        "Cost": {
+          "Gold": 0,
+          "Silver": 0,
+          "Bronze": 18
+        }
+      },
+      {
+        "Id": 6,
+        "Name": "Skip the Meal",
+        "Description": "You decide not to order anything and prepare to leave.",
+        "Effect": {
+          "HealthRestoration": 0,
+          "StaminaRestoration": null,
+          "MoraleBoost": null,
+          "TemporaryAttackBoost": null
+        },
+        "Cost": {
+          "Gold": 0,
+          "Silver": 0,
+          "Bronze": 0
+        }
+      }
+    ]
+  }

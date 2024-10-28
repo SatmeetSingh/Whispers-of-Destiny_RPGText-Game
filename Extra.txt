@@ -1,0 +1,4 @@
+﻿Strength: Increases physical attack damage (e.g., sword, axe).
+Dexterity: Improves critical hit chance, attack speed, and accuracy.
+Intelligence: Increases magic damage and mana points.
+Constitution: Increases health (HP) and reduces damage taken.

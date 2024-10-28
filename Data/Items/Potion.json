@@ -1,0 +1,338 @@
+﻿[
+  {
+    "Id": 1,
+    "PotionName": "Elixir of Immortality",
+    "Rarity": "Legendary",
+    "Cost": {
+      "Gold": 2,
+      "Silver": 99,
+      "Bronze": 50
+    },
+    "Effect": {
+      "Type": "Revival",
+      "HealingAmount": 100,
+      "TemporaryInvincibility": true,
+      "Duration": 10,
+      "Cooldown": 300
+    }
+  },
+  {
+    "Id": 2,
+    "PotionName": "Phoenix Feather Potion",
+    "Rarity": "Legendary",
+    "Cost": {
+      "Gold": 3,
+      "Silver": 50,
+      "Bronze": 30
+    },
+    "Effect": {
+      "Type": "Revival",
+      "HealingAmount": 50,
+      "Duration": 0,
+      "Cooldown": 600
+    }
+  },
+  {
+    "Id": 3,
+    "PotionName": "Potion of True Strength",
+    "Rarity": "Epic",
+    "Cost": {
+      "Gold": 2,
+      "Silver": 30,
+      "Bronze": 20
+    },
+    "Effect": {
+      "Type": "Damage Boost",
+      "DamageIncrease": 50,
+      "Duration": 300,
+      "Cooldown": 600
+    }
+  },
+  {
+    "Id": 4,
+    "PotionName": "Potion of Arcane Power",
+    "Rarity": "Epic",
+    "Cost": {
+      "Gold": 2,
+      "Silver": 30,
+      "Bronze": 20
+    },
+    "Effect": {
+      "Type": "Damage Boost",
+      "DamageIncrease": 50,
+      "Duration": 300,
+      "Cooldown": 600
+    }
+  },
+  {
+    "Id": 5,
+    "PotionName": "Healing Tonic",
+    "Rarity": "Epic",
+    "Cost": {
+      "Gold": 2,
+      "Silver": 20,
+      "Bronze": 10
+    },
+    "Effect": {
+      "Type": "Healing",
+      "HealingAmount": 50,
+      "Duration": 0,
+      "Cooldown": 120
+    }
+  },
+  {
+    "Id": 6,
+    "PotionName": "Elixir of Agility",
+    "Rarity": "Rare",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 50,
+      "Bronze": 10
+    },
+    "Effect": {
+      "Type": "Speed Boost",
+      "SpeedIncrease": 30,
+      "Duration": 180,
+      "Cooldown": 300
+    }
+  },
+  {
+    "Id": 7,
+    "PotionName": "Potion of Fortitude",
+    "Rarity": "Rare",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 20,
+      "Bronze": 5
+    },
+    "Effect": {
+      "Type": "Health Increase",
+      "HealthIncrease": 20,
+      "Duration": 300,
+      "Cooldown": 600
+    }
+  },
+  {
+    "Id": 8,
+    "PotionName": "Potion of Mana Restoration",
+    "Rarity": "Rare",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 20,
+      "Bronze": 5
+    },
+    "Effect": {
+      "Type": "Mana Restoration",
+      "ManaRestorationAmount": 30,
+      "Duration": 0,
+      "Cooldown": 120
+    }
+  },
+  {
+    "Id": 9,
+    "PotionName": "Potion of Resistance",
+    "Rarity": "Rare",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 30,
+      "Bronze": 15
+    },
+    "Effect": {
+      "Type": "Damage Reduction",
+      "DamageReduction": 20,
+      "Duration": 240,
+      "Cooldown": 300
+    }
+  },
+  {
+    "Id": 10,
+    "PotionName": "Healing Balm",
+    "Rarity": "Rare",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 20,
+      "Bronze": 5
+    },
+    "Effect": {
+      "Type": "Healing Over Time",
+      "HealingAmount": 30,
+      "Duration": 10,
+      "Cooldown": 120
+    }
+  },
+  {
+    "Id": 11,
+    "PotionName": "Potion of Speed",
+    "Rarity": "Uncommon",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 10,
+      "Bronze": 2
+    },
+    "Effect": {
+      "Type": "Speed Boost",
+      "SpeedIncrease": 15,
+      "Duration": 120,
+      "Cooldown": 180
+    }
+  },
+  {
+    "Id": 12,
+    "PotionName": "Potion of Strength",
+    "Rarity": "Uncommon",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 10,
+      "Bronze": 2
+    },
+    "Effect": {
+      "Type": "Damage Boost",
+      "DamageIncrease": 20,
+      "Duration": 120,
+      "Cooldown": 180
+    }
+  },
+  {
+    "Id": 13,
+    "PotionName": "Potion of Intelligence",
+    "Rarity": "Uncommon",
+    "Cost": {
+      "Gold": 1,
+      "Silver": 10,
+      "Bronze": 2
+    },
+    "Effect": {
+      "Type": "Damage Boost",
+      "DamageIncrease": 20,
+      "Duration": 120,
+      "Cooldown": 180
+    }
+  },
+  {
+    "Id": 14,
+    "PotionName": "Potion of Healing",
+    "Rarity": "Uncommon",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 1,
+      "Bronze": 0
+    },
+    "Effect": {
+      "Type": "Healing",
+      "HealingAmount": 20,
+      "Duration": 0,
+      "Cooldown": 60
+    }
+  },
+  {
+    "Id": 15,
+    "PotionName": "Potion of Clarity",
+    "Rarity": "Uncommon",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 0,
+      "Bronze": 90
+    },
+    "Effect": {
+      "Type": "Mana Restoration",
+      "ManaRestorationAmount": 15,
+      "Duration": 0,
+      "Cooldown": 60
+    }
+  },
+  {
+    "Id": 16,
+    "PotionName": "Elixir of Focus",
+    "Rarity": "Common",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 1,
+      "Bronze": 0
+    },
+    "Effect": {
+      "Type": "Accuracy Increase",
+      "AccuracyIncrease": 10,
+      "Duration": 2,
+      "Cooldown": 30
+    }
+  },
+  {
+    "Id": 17,
+    "PotionName": "Potion of Mana Boost",
+    "Rarity": "Common",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 1,
+      "Bronze": 50
+    },
+    "Effect": {
+      "Type": "Mana Increase",
+      "ManaIncrease": 10,
+      "Duration": 3,
+      "Cooldown": 30
+    }
+  },
+  {
+    "Id": 18,
+    "PotionName": "Potion of Night Vision",
+    "Rarity": "Common",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 0,
+      "Bronze": 90
+    },
+    "Effect": {
+      "Type": "Vision Enhancement",
+      "Duration": 20,
+      "Cooldown": 5
+    }
+  },
+  {
+    "Id": 19,
+    "PotionName": "Basic Healing Potion",
+    "Rarity": "Common",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 0,
+      "Bronze": 50
+    },
+    "Effect": {
+      "Type": "Healing",
+      "HealingAmount": 10,
+      "Duration": 0,
+      "Cooldown": 5
+    }
+  },
+  {
+    "Id": 20,
+    "PotionName": "Basic Mana Potion",
+    "Rarity": "Common",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 0,
+      "Bronze": 50
+    },
+    "Effect": {
+      "Type": "Mana Restoration",
+      "ManaRestorationAmount": 10,
+      "Duration": 0,
+      "Cooldown": 5
+    }
+  },
+  {
+    "Id": 21,
+    "PotionName": "Simple Mana Potion",
+    "Rarity": "Common",
+    "Cost": {
+      "Gold": 0,
+      "Silver": 1,
+      "Bronze": 0
+    },
+    "Effect": {
+      "Type": "Mana Restoration",
+      "ManaRestorationAmount": 20,
+      "Duration": 0,
+      "Cooldown": 8
+    }
+  }
+]
