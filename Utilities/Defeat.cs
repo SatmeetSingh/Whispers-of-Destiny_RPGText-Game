@@ -22,10 +22,12 @@ namespace RpgTextGame.Utilities
 
             if(player.ExperiencePoints >= player.ExperienceToNextlevel)
             {
-                
                 player.CurrentLevel++;
                 Console.WriteLine($"Congratulations! You have reached Level {player.CurrentLevel}! You gain 5 stat points to distribute.");
                 player.ExperiencePoints -= player.ExperienceToNextlevel;
+                player.RemainingPoints += 5;
+                player.HeathPoints = player.MaxHeathPoints;
+                player.Mana = player.MaxMana;
                 player.ExperienceToNextlevel += Convert.ToInt32(player.ExperienceToNextlevel / 4);
             }
             Console.WriteLine("\n Press any key to navigate to village outskirts");

@@ -102,7 +102,8 @@ namespace RpgTextGame.Models
         public void ReturnMethod(ICharacter character)
         {
             Console.WriteLine("1. Add points to character: ");
-            Console.Writeline("2. Return to Game MenuPage: ");
+            Console.WriteLine("2. Return to Game MenuPage: \n");
+            Console.Write("Pick your Choice: ");
             int returnChoice = int.Parse(Console.ReadLine());
 
             if (returnChoice == 1)

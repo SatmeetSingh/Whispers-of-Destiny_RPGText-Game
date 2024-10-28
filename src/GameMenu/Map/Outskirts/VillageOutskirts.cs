@@ -61,6 +61,8 @@ namespace RpgTextGame.src.GameMenu.Map.Outskirts
                     Outskirt(character);
                     break;
             }
+
+            Console.ReadKey();
         }
     }
 }

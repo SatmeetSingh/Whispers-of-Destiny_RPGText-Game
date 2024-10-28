@@ -249,21 +249,15 @@ namespace RpgTextGame.views.MainMenu
             }
         }
 
-        public void AddPoints(ICharacter newCharacter ,int initialPoints,int allocatedPoints = 0)
+        public void AddPoints(ICharacter newCharacter, int initialPoints, int allocatedPoints = 0)
         {
             while (allocatedPoints < initialPoints)
             {
+                if(allocatedPoints == initialPoints) { break; }
                 Console.Write("\t1. Strength : ");
                 int strength = 0;
-                while (strength <= 0)
-                {
-                    //Console.Write("\t1. Strength (must be > 0): ");
-                    strength = Convert.ToInt32(Console.ReadLine());
-                    if (strength <= 0)
-                    {
-                        Console.WriteLine("Strength cannot be zero or negative. Please enter a valid value.");
-                    }
-                }
+                strength = Convert.ToInt32(Console.ReadLine());
+
                 if (allocatedPoints + strength > initialPoints)
                 {
                     Console.WriteLine("You don't have enough points. Please try again.");
@@ -271,21 +265,15 @@ namespace RpgTextGame.views.MainMenu
                 }
                 else
                 {
-                    newCharacter.Strength = strength;
+                    newCharacter.Strength += strength;
                     allocatedPoints += strength;
                 }
 
+                if (allocatedPoints == initialPoints) { break; }
                 Console.Write("\t2. Intelligence: ");
                 int intelligence = 0;
-                while (intelligence <= 0)
-                {
-                    //Console.Write("\t2. Intelligence (must be > 0): ");
-                    intelligence = Convert.ToInt32(Console.ReadLine());
-                    if (intelligence <= 0)
-                    {
-                        Console.WriteLine("Intelligence cannot be zero or negative. Please enter a valid value.");
-                    }
-                }
+                intelligence = Convert.ToInt32(Console.ReadLine());
+
                 if (allocatedPoints + intelligence > initialPoints)
                 {
                     Console.WriteLine("You don't have enough points. Please try again.");
@@ -293,21 +281,15 @@ namespace RpgTextGame.views.MainMenu
                 }
                 else
                 {
-                    newCharacter.Intelligence = intelligence;
+                    newCharacter.Intelligence += intelligence;
                     allocatedPoints += intelligence;
                 }
-                
+
+                if (allocatedPoints == initialPoints) { break; }
                 Console.Write("\t3. Dexterity: ");
                 int dexterity = 0;
-                while (dexterity <= 0)
-                {
-                    //Console.Write("\t3. dexterity (must be > 0): ");
-                    dexterity = Convert.ToInt32(Console.ReadLine());
-                    if (dexterity <= 0)
-                    {
-                        Console.WriteLine("dexterity cannot be zero or negative. Please enter a valid value.");
-                    }
-                }
+                dexterity = Convert.ToInt32(Console.ReadLine());
+
                 if (allocatedPoints + dexterity > initialPoints)
                 {
                     Console.WriteLine("You don't have enough points for dexterity . Please try again.");
@@ -315,21 +297,15 @@ namespace RpgTextGame.views.MainMenu
                 }
                 else
                 {
-                    newCharacter.Dexterity = dexterity;
+                    newCharacter.Dexterity += dexterity;
                     allocatedPoints += dexterity;
                 }
 
+                if (allocatedPoints == initialPoints) { break; }
                 Console.Write("\t4. Constitution: ");
                 int constitution = 0;
-                while (constitution <= 0)
-                {
-                    //Console.Write("\t4. constitution (must be > 0): ");
-                    constitution = Convert.ToInt32(Console.ReadLine());
-                    if (constitution <= 0)
-                    {
-                        Console.WriteLine("constitution cannot be zero or negative. Please enter a valid value.");
-                    }
-                }
+                constitution = Convert.ToInt32(Console.ReadLine());
+
                 if (allocatedPoints + constitution > initialPoints)
                 {
                     Console.WriteLine("You don't have enough points for constitution.  Please try again.");
@@ -337,20 +313,17 @@ namespace RpgTextGame.views.MainMenu
                 }
                 else
                 {
-                    newCharacter.Constitution = constitution;
+                    newCharacter.Constitution += constitution;
                     allocatedPoints += constitution;
                 }
 
-            if (allocatedPoints == initialPoints)
-                {
-                    Console.WriteLine("\n Character creation complete!");
-                }
-
+                newCharacter.Mana += 10 * newCharacter.Intelligence;
+                newCharacter.MaxMana += 10 * newCharacter.Intelligence;
+                newCharacter.HeathPoints += 10 * newCharacter.Constitution;
+                newCharacter.MaxHeathPoints += 10 * newCharacter.Constitution;
             }
-            newCharacter.Mana += 10 * newCharacter.Intelligence;
-            newCharacter.MaxMana += 10 * newCharacter.Intelligence;
-            newCharacter.HeathPoints += 10 * newCharacter.Constitution;
-            newCharacter.MaxHeathPoints += 10 * newCharacter.Constitution;
+
+            initialPoints = initialPoints - allocatedPoints;
         }
     }
 }

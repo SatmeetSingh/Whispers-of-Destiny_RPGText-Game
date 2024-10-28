@@ -51,6 +51,8 @@ namespace RpgTextGame.src.GameMenu.Inn
                         NavigationPage.NavigateToInnPage(character);
                     } else
                     {
+                        character.HeathPoints = character.MaxHeathPoints;
+                        character.Mana = character.MaxMana;
                         character.Money.SubtractCurrency(0,0,50);
                         Console.WriteLine($"Remaining Money : {character.Money.PrintCurrency()}");
                     }
