@@ -48,7 +48,6 @@ namespace RpgTextGame.Utilities
             outskirts.Outskirt(character);
         }
 
-
         public static void InsuffecientMoneyForFood(ICharacter character ,Currency cost) {
             if (character.Money.TotalMoney() < (cost.Gold * 10000 + cost.Silver * 100 + cost.Bronze))
             {

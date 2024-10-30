@@ -4,9 +4,11 @@ using RpgTextGame.views.MainMenu;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace RpgTextGame.Models
 {
@@ -16,8 +18,8 @@ namespace RpgTextGame.Models
         string Name { get; set; }
         ClassType CharClass { get ; set;}
         int CurrentLevel { get; set; } 
-        int HeathPoints { get; set; }
-        int MaxHeathPoints { get; set; }
+        int HealthPoints { get; set; }
+        int MaxHealthPoints { get; set; }
         int Mana { get; set; }  
         int MaxMana { get; set; }
         int Strength { get; set; }
@@ -30,8 +32,14 @@ namespace RpgTextGame.Models
         Currency Money { get; }
 
         int RemainingPoints { get; set; }
+        /*
+         * For Counter attack during attack
+         */
+        bool CounterMode { get; set; }
         void Display();
         void ReturnMethod(ICharacter character);
+
+        void CounterAttack(DamageAlgo damage, Enemy enemy, ICharacter player);
     }
     internal class Character : ICharacter
     {
@@ -39,8 +47,8 @@ namespace RpgTextGame.Models
         public string Name { get; set; } = String.Empty;
         public ClassType CharClass { get ; set;}
         public int CurrentLevel { get; set; }
-        public int HeathPoints { get; set; }
-        public int MaxHeathPoints { get; set; }
+        public int HealthPoints { get; set; }
+        public int MaxHealthPoints { get; set; }
         public int Mana { get; set; }
         public int MaxMana { get; set; }
         public int Strength { get; set; }
@@ -54,13 +62,15 @@ namespace RpgTextGame.Models
         public int RemainingPoints { get; set; }
         public Currency Money { get; private set; }
 
+        public bool CounterMode { get; set; }          
+
         public Character() {
             Name = string.Empty;
             CharClass = ClassType.Warrior;
             CurrentLevel = 0;
-            HeathPoints = 50;
-            MaxHeathPoints = 50;
-            Mana =  10;
+            HealthPoints = 50;
+            MaxHealthPoints = 50;
+            Mana = 10;
             MaxMana =  10;
             Strength = 0;
             Intelligence = 0;
@@ -68,6 +78,7 @@ namespace RpgTextGame.Models
             Constitution = 0;
             ExperiencePoints = 0;
             RemainingPoints = 0;
+            CounterMode = false;
             ExperienceToNextlevel = 100;
             Money = new Currency(0,5,50);   
         }
@@ -85,7 +96,7 @@ namespace RpgTextGame.Models
             Console.WriteLine($"\tClass: [ {CharClass} ]");
             Console.WriteLine($"\tLevel: [ {CurrentLevel} ]");
             Console.WriteLine($"\tExp: [ {ExperiencePoints} ]/[ {ExperienceToNextlevel} ]");
-            Console.WriteLine($"\tHP: [ {HeathPoints} ]/[ {MaxHeathPoints} ]");
+            Console.WriteLine($"\tHP: [ {HealthPoints} ]/[ {MaxHealthPoints} ]");
             Console.WriteLine($"\tMana: [ {Mana} ]/[ {MaxMana} ]\n");
             Console.WriteLine($"\tStrength: [ {Strength} ]");
             Console.WriteLine($"\tDexterity: [ {Dexterity} ]");
@@ -111,7 +122,9 @@ namespace RpgTextGame.Models
                 if(character.RemainingPoints > 0)
                 {
                     CharacterCreation add = new CharacterCreation();
-                    add.AddPoints(character, character.RemainingPoints);
+                    int value =  add.AddPoints(character, character.RemainingPoints);
+                    character.RemainingPoints = value;
+                    
                 } else
                 {
                     Console.WriteLine("\n You don't have enough points to add.\nPress any key to go back");
@@ -130,7 +143,18 @@ namespace RpgTextGame.Models
                 Display();
             }
         }  
+
+        public void CounterAttack(DamageAlgo damage , Enemy enemy , ICharacter player)
+        {
+            Console.WriteLine("[Counter Attack] You unleash a powerful counterattack!");
+            int counterDamage = damage.NormalPlayerDamage(player , enemy) * 2; // Example of increased damage
+            enemy.Health -= counterDamage;
+            Console.WriteLine($"[Success!] You dealt {counterDamage} counter damage to {enemy.Name}.");
+            player.CounterMode = false;
+            Console.WriteLine($" {enemy.Name}'s HP: [ {enemy.Health}/{enemy.MaxHealth} ]");
+        }
     }
+
 
     public enum ClassType
     {

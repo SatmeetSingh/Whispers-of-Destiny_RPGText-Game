@@ -51,7 +51,7 @@ namespace RpgTextGame.src.GameMenu.Inn
                         NavigationPage.NavigateToInnPage(character);
                     } else
                     {
-                        character.HeathPoints = character.MaxHeathPoints;
+                        character.HealthPoints = character.MaxHealthPoints;
                         character.Mana = character.MaxMana;
                         character.Money.SubtractCurrency(0,0,50);
                         Console.WriteLine($"Remaining Money : {character.Money.PrintCurrency()}");
@@ -62,7 +62,7 @@ namespace RpgTextGame.src.GameMenu.Inn
                     NavigationPage.NavigateToInnPage(character);
                     break;
                 case "2":
-                    Console.WriteLine("");
+                    Console.WriteLine("Return to Game Menu");
                     NavigationPage.NavigateToInnPage(character);
                     break;
                 default:

@@ -6,17 +6,19 @@
       "ExpAwarded": 12,
       "Health": 30,
       "MaxHealth": 30,
-      "Damage": 6,
+      "Damage": 7,
+      "Defance": 2,
       "Rarity": "Common"
     },
     {
       "Id": 2,
       "Name": "Wolf",
       "Level": 2,
-      "ExpAwarded": 16,
+      "ExpAwarded": 21,
       "Health": 35,
       "MaxHealth": 35,
-      "Damage": 7,
+      "Damage": 8,
+      "Defance": 4,
       "Rarity": "Common"
     },
     {
@@ -27,6 +29,7 @@
       "Health": 40,
       "MaxHealth": 40,
       "Damage": 8,
+      "Defance": 6,
       "Rarity": "Common"
     },
     {
@@ -36,57 +39,63 @@
       "ExpAwarded": 12,
       "Health": 28,
       "MaxHealth": 28,
-      "Damage": 5, 
+      "Damage": 6,
+      "Defance": 3,
       "Rarity": "Common"
     },
     {
       "Id": 5,
       "Name": "Bandit",
       "Level": 2,
-      "ExpAwarded": 18, 
+      "ExpAwarded": 24,
       "Health": 33,
       "MaxHealth": 33,
-      "Damage": 6, 
+      "Damage": 7,
+      "Defance": 5,
       "Rarity": "Common"
     },
     {
       "Id": 6,
       "Name": "Zombie",
       "Level": 3,
-      "ExpAwarded": 32, 
+      "ExpAwarded": 32,
       "Health": 38,
       "MaxHealth": 38,
-      "Damage": 7, 
+      "Damage": 9,
+      "Defance": 5,
       "Rarity": "Common"
     },
     {
       "Id": 7,
       "Name": "Elite Goblin",
       "Level": 3,
-      "ExpAwarded": 35,
+      "ExpAwarded": 45,
       "Health": 55,
       "MaxHealth": 55,
-      "Damage": 9,
+      "Damage": 12,
+      "Defance": 6,
       "Rarity": "Elite"
     },
     {
       "Id": 8,
       "Name": "Elite Bandit",
       "Level": 2,
-      "ExpAwarded": 25, 
+      "ExpAwarded": 35, 
       "Health": 45,
       "MaxHealth": 45,
-      "Damage": 8, 
+      "Damage": 10, 
+      "Defance": 5,
       "Rarity": "Elite"
     },
     {
       "Id": 9,
       "Name": "Goblin King",
       "Level": 3,
-      "ExpAwarded": 60, 
+      "ExpAwarded": 70,
       "Health": 70,
       "MaxHealth": 70,
-      "Damage": 12,
+      "Damage": 15,
+      "Defance": 7,
       "Rarity": "Boss"
-  }
+    }
 ]

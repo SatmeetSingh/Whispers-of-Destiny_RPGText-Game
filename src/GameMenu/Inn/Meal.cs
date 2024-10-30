@@ -111,13 +111,13 @@ namespace RpgTextGame.src.GameMenu.Inn
                             var cost = mealData.Meals[0].Cost;
                             NavigationPage.InsuffecientMoneyForFood(character, cost);
                             character.Money.SubtractCurrency(cost.Gold, cost.Silver, cost.Bronze);
-                            if (character.HeathPoints + mealData.Meals[0].Effect.HealthRestoration < character.MaxHeathPoints)
+                            if (character.HealthPoints + mealData.Meals[0].Effect.HealthRestoration < character.MaxHealthPoints)
                             {
-                                character.HeathPoints += mealData.Meals[0].Effect.HealthRestoration ?? 0;
+                                character.HealthPoints += mealData.Meals[0].Effect.HealthRestoration ?? 0;
                             }
                             else
                             {
-                                character.HeathPoints = character.MaxHeathPoints;
+                                character.HealthPoints = character.MaxHealthPoints;
                             }
                             MealData(character, mealData.Meals[0]);
                             break;
@@ -125,13 +125,13 @@ namespace RpgTextGame.src.GameMenu.Inn
                             cost = mealData.Meals[1].Cost;
                             NavigationPage.InsuffecientMoneyForFood(character, cost);
                             character.Money.SubtractCurrency(cost.Gold, cost.Silver, cost.Bronze);
-                            if (character.HeathPoints + mealData.Meals[1].Effect.HealthRestoration < character.MaxHeathPoints)
+                            if (character.HealthPoints + mealData.Meals[1].Effect.HealthRestoration < character.MaxHealthPoints)
                             {
-                                character.HeathPoints += mealData.Meals[1].Effect.HealthRestoration ?? 0;
+                                character.HealthPoints += mealData.Meals[1].Effect.HealthRestoration ?? 0;
                             }
                             else
                             {
-                                character.HeathPoints = character.MaxHeathPoints;
+                                character.HealthPoints = character.MaxHealthPoints;
                             }
                             MealData(character, mealData.Meals[1]);
                             break;
@@ -153,13 +153,13 @@ namespace RpgTextGame.src.GameMenu.Inn
                             cost = mealData.Meals[3].Cost;
                             NavigationPage.InsuffecientMoneyForFood(character, cost);
                             character.Money.SubtractCurrency(cost.Gold, cost.Silver, cost.Bronze);
-                            if (character.HeathPoints + mealData.Meals[3].Effect.HealthRestoration < character.MaxHeathPoints)
+                            if (character.HealthPoints + mealData.Meals[3].Effect.HealthRestoration < character.MaxHealthPoints)
                             {
-                                character.HeathPoints += mealData.Meals[3].Effect.HealthRestoration ?? 0;
+                                character.HealthPoints += mealData.Meals[3].Effect.HealthRestoration ?? 0;
                             }
                             else
                             {
-                                character.HeathPoints = character.MaxHeathPoints;
+                                character.HealthPoints = character.MaxHealthPoints;
                             }
                             MealData(character, mealData.Meals[3]);
                             break;
@@ -167,13 +167,13 @@ namespace RpgTextGame.src.GameMenu.Inn
                             cost = mealData.Meals[4].Cost;
                             NavigationPage.InsuffecientMoneyForFood(character, cost);
                             character.Money.SubtractCurrency(cost.Gold, cost.Silver, cost.Bronze);
-                            if (character.HeathPoints + mealData.Meals[4].Effect.HealthRestoration < character.MaxHeathPoints)
+                            if (character.HealthPoints + mealData.Meals[4].Effect.HealthRestoration < character.MaxHealthPoints)
                             {
-                                character.HeathPoints += mealData.Meals[4].Effect.HealthRestoration ?? 0;
+                                character.HealthPoints += mealData.Meals[4].Effect.HealthRestoration ?? 0;
                             }
                             else
                             {
-                                character.HeathPoints = character.MaxHeathPoints;
+                                character.HealthPoints = character.MaxHealthPoints;
                             }
                             MealData(character, mealData.Meals[4]);
                             break;

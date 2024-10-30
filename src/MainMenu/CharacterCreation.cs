@@ -221,8 +221,8 @@ namespace RpgTextGame.views.MainMenu
 
             newCharacter.Mana += 10 * newCharacter.Intelligence;
             newCharacter.MaxMana += 10 * newCharacter.Intelligence;
-            newCharacter.HeathPoints += 10 * newCharacter.Constitution;
-            newCharacter.MaxHeathPoints += 10 * newCharacter.Constitution;
+            newCharacter.HealthPoints += 10 * newCharacter.Constitution;
+            newCharacter.MaxHealthPoints += 10 * newCharacter.Constitution;
 
             Console.WriteLine(" Confirm your creation ? ");
             Console.WriteLine("\t1. Yes");
@@ -249,7 +249,7 @@ namespace RpgTextGame.views.MainMenu
             }
         }
 
-        public void AddPoints(ICharacter newCharacter, int initialPoints, int allocatedPoints = 0)
+        public int AddPoints(ICharacter newCharacter, int initialPoints, int allocatedPoints = 0)
         {
             while (allocatedPoints < initialPoints)
             {
@@ -317,13 +317,14 @@ namespace RpgTextGame.views.MainMenu
                     allocatedPoints += constitution;
                 }
 
-                newCharacter.Mana += 10 * newCharacter.Intelligence;
-                newCharacter.MaxMana += 10 * newCharacter.Intelligence;
-                newCharacter.HeathPoints += 10 * newCharacter.Constitution;
-                newCharacter.MaxHeathPoints += 10 * newCharacter.Constitution;
+                newCharacter.Mana += 10 * intelligence;
+                newCharacter.MaxMana += 10 * intelligence;
+                newCharacter.HealthPoints += 10 * constitution;
+                newCharacter.MaxHealthPoints += 10 * constitution;
             }
 
             initialPoints = initialPoints - allocatedPoints;
+            return initialPoints;
         }
     }
 }

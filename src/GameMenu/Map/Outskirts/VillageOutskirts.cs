@@ -16,7 +16,7 @@ namespace RpgTextGame.src.GameMenu.Map.Outskirts
             Console.Write("-----------------------------------------------------------");
             Console.WriteLine("\t-------------------------------------------------");
             Console.Write("                    Village Outskirts                      ");
-            Console.WriteLine($"\t\tPlayerHealth:{character.HeathPoints}/{character.MaxHeathPoints}     Mana: {character.Mana}/{character.MaxMana}");
+            Console.WriteLine($"\t\tPlayerHealth:{character.HealthPoints}/{character.MaxHealthPoints}     Mana: {character.Mana}/{character.MaxMana}");
             Console.Write("                (Recommended Levels: 0-3)                  ");
             Console.WriteLine("\t-------------------------------------------------");
             Console.WriteLine("-----------------------------------------------------------");
