@@ -64,7 +64,12 @@ RPGTextGame/
 │           └── RoomCheckIn.cs           # Check into inn
 │
 ├── Utilities/                   # Utility functions and algorithms
+│   ├── Attack/
+│       ├── EnemyNormalAttack.cs         # Enemy Attack calculation
+│       ├── PlayerNormalAttack.cs        # Player Basic Attack calculation
+│       ├── PlayerPowerAttack.cs         # Player Attack With Mana calculation
 │   ├── DamageAlgo.cs            # Damage calculation
+│   ├── Death.cs                 # Death handling
 │   ├── Defeat.cs                # Defeat handling
 │   ├── LimitedList.cs           # Limited lists utility
 │   ├── MonsterList.cs           # Monster lists
